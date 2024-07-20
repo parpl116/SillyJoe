@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 15px;
+}
+body {
+    background-color: #91bbff;
+}
+main {
+    margin: 10px auto;
+    padding: 25px;
+    width: 90%;
+    min-height: 400px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px;
+}
+header {
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: monospace;
+}
+div {
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.answer {
+    margin: 10px auto;
+    width: 500px;
+    min-height: 0;
+    height: 150px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px;
+}
+.answer-div {
+    margin: 5px;
+    font-size: 20px;
+    font-family: monospace;
+}
+input {
+    margin: 10px auto;
+    padding-left: 10px;
+    width: 69%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+    text-shadow: none;
+    
+}
+button {
+    margin: 10px auto;
+    width: 29%;
+    height: 30px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+}
+button:active {
+    box-shadow: 2px 2px 5px, 1px 1px 7px inset;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+p {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    font-family:'Courier New', Courier, monospace;
+}
+a {
+    text-shadow: none;
+}

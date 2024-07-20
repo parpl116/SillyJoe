@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Instagram Account | Alex's CTFs</title>
+</head>
+<body>
+    <main id="block">
+        <header>Instagram Account</header>
+        <div>There's a guy in my dorm who's being an idiot. I know he's got some crypto. Of course, I wish him all the best,
+            but I think he could use a little punishment. I found out recently 
+            he was sending his friend some login credentials for his wallet. I have no idea why anyone would do that, and I don't know,
+             what it was, and I don't care. However, he still has the details there and was sending them via instagram.
+             Could you find out his password? He's not some big pro when it comes to passwords.
+             Here's a link to his blog: <a href="home.html">Joe's blog</a><br>And here's a hash of his password: <span style="color: rgb(255, 242, 0); text-shadow: 5px 5px 10px black, -5px -5px 10px black;">0dc394fe8eddaedfdc65d6ee68a6a5ceecc84738bfe9817fb529264f03ae1940</span>
+        </div>
+    </main>
+    <main id="block2" class="answer">
+        <div class="answer-div">Did you find the flag?</div>
+        <div>
+            <input id="input" type="text" placeholder="Enter the flag">
+            <button onclick="Submit()">Submit</button>
+        </div>
+    </main>
+    <main id="block3" style="display: none;">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div style="color: green; text-align: center; margin: 130px auto; font-size: larger">
+                                                Congratulations!
+                                            </div>
+                                            <h4 id="winning" style="position: absolute; margin-left: 180px; margin-top: -130px;"></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> by Alex Martinek</p>
+    </footer>
+    
+</body>
+</html>
